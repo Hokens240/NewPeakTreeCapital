@@ -23,7 +23,7 @@
         <div class="spinner-grow text-light" role="status"><span class="visually-hidden">Loading...</span></div>
     </div>
     <!-- Header Area-->
-    <header class="header-area">
+    <header class="header-area header-2">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- Navbar Brand --><a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png"
@@ -52,163 +52,47 @@
             </div>
         </nav>
     </header>
-    <!-- Breadcrumb Area-->
-    <div class="breadcrumb-wrapper bg-img bg-overlay" style="background-image: url('img/12.jpg');">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcrumb-content">
-                        <h2 class="breadcrumb-title">PeakTree Capital Exchange</h2>
-                        <p class="justify-content-center text-white text-center">"Price is what you pay. Value is what
-                            you get" -Warren Buffett</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Plan Area-->
-    <div class="saasbox-pricing-plan-area bg-gray pt-120 pb-120">
+    <div class="mb-120 d-block"></div>
+    <!-- Register -->
+    <div class="register-area">
         <div class="container">
-            <div class="row justify-content-center g-4 g-lg-5">
-                <!-- Single Pricing Plan-->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
-                    <div class="card pricing-card bg-img" style="background-image: url('img/3.png')">
-                        <div class="pricing-heading">
-                            <div class="price">
-                                <h6>Starter Pack</h6>
-                                <h4 class="text-warning fw-bold">$1000 - $9999</h4>
+            <div class="row g-4 g-lg-5 align-items-center justify-content-between">
+                <div class="col-12 col-lg-12">
+                    <div class="card register-card bg-gray p-2 p-sm-4">
+                        <div class="card-body">
+                            <h3>Welcome back</h3>
+                            <p>Enter your account details below to sign in</p>
+                            <!-- Register Form-->
+                            <div class="register-form my-5">
+                                <form action="#" method="post">
+                                    <div class="form-group mb-3">
+                                        <input class="form-control" type="email" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="label-psswd" for="registerPassword"><i
+                                                class="bi bi-eye"></i></label>
+                                        <input class="form-control" id="registerPassword" type="password"
+                                            placeholder="Password" required>
+                                    </div>
+                                    <div class="login-meta-data d-flex align-items-center justify-content-between">
+                                        <div class="form-check mt-3 mb-4">
+                                          <input class="form-check-input" id="rememberMe" type="checkbox" value="">
+                                          <label class="form-check-label" for="rememberMe">Keep me logged in</label>
+                                        </div><a class="forgot-password mt-3" href="forget-password.html">Forgot Password?</a>
+                                      </div>
+                                    <button class="btn btn-primary w-100" type="submit">Register Now</button>
+                                    <p class="mt-4 text-center">Don't have an account?<a class="ms-2" href="register.html">Create an account</a></p>
+                                </form>
                             </div>
+                            
                         </div>
-                        <div class="pricing-desc my-5">
-                            <ul class="ps-0 mb-0 list-unstyled">
-                                <li>10% Trade Bonus</li>
-                                <li>Low Trade Frequency</li>
-                                <li>Low Trade Rate</li>
-                                <li>High Risk Management</li>
-                                <li>4% Referral Bonus</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn"><a class="btn btn-info btn-sm rounded-pill" href="#">Choose Plan
-                                <svg class="bi bi-arrow-right ms-1" xmlns="http://www.w3.org/2000/svg" width="18"
-                                    height="18" fill="currentColor" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <!-- Single Pricing Plan-->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
-                    <div class="card pricing-card bg-img" style="background-image: url('img/3.png')">
-                        <div class="pricing-heading">
-                            <div class="price">
-                                <h6>Regular Pack</h6>
-                                <h4 class="text-warning fw-bold">$10000 - $24999</h4>
-                            </div>
-                        </div>
-                        <div class="pricing-desc my-5">
-                            <ul class="ps-0 mb-0 list-unstyled">
-                                <li>10% Trade Bonus</li>
-                                <li>Medium Trade Frequency</li>
-                                <li>Medium Trade Rate</li>
-                                <li>High Risk Management</li>
-                                <li>4% Referral Bonus</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn"><a class="btn btn-info btn-sm rounded-pill" href="#">Choose Plan
-                                <svg class="bi bi-arrow-right ms-1" xmlns="http://www.w3.org/2000/svg" width="18"
-                                    height="18" fill="currentColor" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <!-- Single Pricing Plan-->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
-                    <div class="card pricing-card bg-img" style="background-image: url('img/3.png')">
-                        <div class="pricing-heading">
-                            <div class="price">
-                                <h6>Gold Pack</h6>
-                                <h4 class="text-warning fw-bold">$25000 - $49999</h4>
-                            </div>
-                        </div>
-                        <div class="pricing-desc my-5">
-                            <ul class="ps-0 mb-0 list-unstyled">
-                                <li>15% Trade Bonus</li>
-                                <li>High Trade Frequency</li>
-                                <li>Medium Trade Rate</li>
-                                <li>High Risk Management</li>
-                                <li>4% Referral Bonus</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn"><a class="btn btn-info btn-sm rounded-pill" href="#">Choose Plan
-                                <svg class="bi bi-arrow-right ms-1" xmlns="http://www.w3.org/2000/svg" width="18"
-                                    height="18" fill="currentColor" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <!-- Single Pricing Plan-->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
-                    <div class="card pricing-card bg-img" style="background-image: url('img/3.png')">
-                        <div class="pricing-heading">
-                            <div class="price">
-                                <h6>Ruby Pack</h6>
-                                <h4 class="text-warning fw-bold">$50000 - $100000</h4>
-                            </div>
-                        </div>
-                        <div class="pricing-desc my-5">
-                            <ul class="ps-0 mb-0 list-unstyled">
-                                <li>15% Trade Bonus</li>
-                                <li>High Trade Frequency</li>
-                                <li>High Trade Rate</li>
-                                <li>High Risk Management</li>
-                                <li>5% Referral Bonus</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn"><a class="btn btn-info btn-sm rounded-pill" href="#">Choose Plan
-                                <svg class="bi bi-arrow-right ms-1" xmlns="http://www.w3.org/2000/svg" width="18"
-                                    height="18" fill="currentColor" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
-                                    </path>
-                                </svg></a></div>
-                    </div>
-                </div>
-                <!-- Single Pricing Plan-->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-4">
-                    <div class="card pricing-card bg-img" style="background-image: url('img/3.png')">
-                        <div class="pricing-heading">
-                            <div class="price">
-                                <h6>Premium Pack</h6>
-                                <h4 class="text-warning fw-bold">$200000 - $1M</h4>
-                            </div>
-                        </div>
-                        <div class="pricing-desc my-5">
-                            <ul class="ps-0 mb-0 list-unstyled">
-                                <li>15% Trade Bonus</li>
-                                <li>High Trade Frequency</li>
-                                <li>High Trade Rate</li>
-                                <li>High Risk Management</li>
-                                <li>5% Referral Bonus</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn"><a class="btn btn-info btn-sm rounded-pill" href="#">Choose Plan
-                                <svg class="bi bi-arrow-right ms-1" xmlns="http://www.w3.org/2000/svg" width="18"
-                                    height="18" fill="currentColor" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
-                                    </path>
-                                </svg></a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="mb-120 d-block"></div>
+
     <section class="custom-social-proof">
         <div class="custom-notification">
             <div class="custom-notification-container">
@@ -282,7 +166,7 @@
     </section>
 
     <!-- Footer Area-->
-    <footer class="footer-area"><!-- footer-2 pt-120 pb-120 -->
+    <footer class="footer-area">
         <div class="container">
             <div class="row g-4 g-lg-5">
                 <!-- Footer Widget Area -->
